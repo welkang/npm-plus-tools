@@ -1,2 +1,2 @@
-# npm-sync
-link 不好用，那就 sync 吧
+# npm-plus
+npm 增强工具集

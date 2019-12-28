@@ -1,11 +1,10 @@
 {
-  "name": "@ali/npm-link-plus",
-  "version": "0.0.4",
-  "description": "npm link 不好用，那就 npm sync 吧",
-  "main": "index.js",
+  "name": "npm-plus",
+  "version": "0.0.1",
+  "description": "npm plus",
   "bin": {
-    "npm-sync": "index.js",
-    "npm-link-plus": "index.js"
+    "np-sync": "sync.js",
+    "np-clean": "clean.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -22,6 +21,7 @@
   "homepage": "https://github.com/welkang/npm-sync#readme",
   "dependencies": {
     "commander": "^2.20.0",
-    "read-package-json": "^2.1.1"
+    "read-package-json": "^2.1.1",
+    "rimraf": "^2.6.3"
   }
 }
