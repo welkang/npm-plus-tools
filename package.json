@@ -1,0 +1,26 @@
+{
+  "name": "npm-link-plus",
+  "version": "0.0.2",
+  "description": "npm link 不好用，那就 npm sync 吧",
+  "main": "index.js",
+  "bin": {
+    "npm-sync": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/welkang/npm-sync.git"
+  },
+  "author": "welkang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/welkang/npm-sync/issues"
+  },
+  "homepage": "https://github.com/welkang/npm-sync#readme",
+  "dependencies": {
+    "commander": "^2.20.0",
+    "read-package-json": "^2.1.1"
+  }
+}
