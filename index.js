@@ -21,7 +21,7 @@ function getTargetPath(callback) {
     // "name": "@ali/mo-dish-select",
     // "version": "1.1.13-beta.4",
     let middlePath = '';
-    if (packageName.indexOf('@') === '0') {
+    if (packageName.indexOf('@') === 0) {
       middlePath = '_' + packageName.replace('/', '_') + '@' + version + '@'; // _@ali_mo-dish-select@1.1.13-beta.2@
     }
     const targetPath = path.resolve(program.args[0]) + `/node_modules/${middlePath}${packageName}`;

@@ -1,10 +1,11 @@
 {
-  "name": "npm-link-plus",
-  "version": "0.0.2",
+  "name": "@ali/npm-link-plus",
+  "version": "0.0.4",
   "description": "npm link 不好用，那就 npm sync 吧",
   "main": "index.js",
   "bin": {
-    "npm-sync": "index.js"
+    "npm-sync": "index.js",
+    "npm-link-plus": "index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
