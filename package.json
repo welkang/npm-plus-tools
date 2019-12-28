@@ -1,6 +1,6 @@
 {
-  "name": "npm-plus",
-  "version": "0.0.1",
+  "name": "npm-plus-tools",
+  "version": "0.0.2",
   "description": "npm plus",
   "bin": {
     "np-sync": "sync.js",

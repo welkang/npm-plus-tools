@@ -2,7 +2,7 @@
 const program = require('commander');
 const path = require('path');
 const readJson = require('read-package-json')
-const copydir = require('./copy-dir');
+const copydir = require('./utils/copy-dir');
 const exec = require('child_process').execSync;
 
 const targetFoler = 'node_modules';

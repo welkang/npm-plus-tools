@@ -3,7 +3,7 @@ const program = require('commander');
 const path = require('path');
 const exec = require('child_process').execSync;
 const targetFoler = 'node_modules';
-const clear = require('./lib/clear');
+const clear = require('./utils/clear');
 const pkg = require('./package.json');
 
 program
