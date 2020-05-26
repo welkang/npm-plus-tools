@@ -3,12 +3,10 @@ const program = require('commander');
 const path = require('path');
 const exec = require('child_process').execSync;
 const targetFoler = 'node_modules';
-const clear = require('./utils/clear');
+// const clear = require('./utils/clear');
 const pkg = require('./package.json');
 
-program
-  .version(pkg.version)
-  .parse(process.argv);
+program.version(pkg.version).parse(process.argv);
 
 if (program.args && program.args[0]) {
   const currentPath = path.resolve(program.args[0]);
